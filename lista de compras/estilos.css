@@ -1,0 +1,39 @@
+/* Centraliza o texto do título */
+.text-center {
+    text-align: center;
+}
+
+/* Margem superior para o container principal */
+.container {
+    margin-top: 50px;
+}
+
+/* Estilização do botão de remover */
+.btn-danger {
+    margin-left: 10px;
+}
+
+/* Estilo da imagem no item */
+.item-image {
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilo para itens comprados */
+.purchased {
+    background-color: #d4edda; /* Fundo verde claro */
+    text-decoration: line-through; /* Texto com linha atravessada */
+}
+
+.item-image {
+    width: auto;   /* Mantém a proporção da largura automática */
+    height: 150px; /* Define a altura como metade do tamanho original da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber no tamanho definido, mantendo a proporção */
+    border-radius: 5px; /* Cantos arredondados, opcional */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.list-group-item {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte em 50% (de 1em para 1.5em) */
+}
